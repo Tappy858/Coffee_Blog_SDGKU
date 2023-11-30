@@ -1,3 +1,4 @@
+<!--example comments: for things that can not be explained-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,58 +10,82 @@
     </style>
 </head>
 <body>   
-    <header class="site-init">
-        <h1>Coffee Blog</h1>
-        <p><b>Coffee Blog with tips and Courses</b></p>
-        <p>Learn from the experts with the best recipes and tips</p>
+    <header>
+    <div class="site-init">
+    <div class="con-hf hf-flex">
+        <h1><a href="index.html">Coffee <span>Blog</span></a></h1>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+    </div>
+            <p><h2>Coffee Blog with tips and Courses</h2></p>
+            <p>Learn from the experts with the best recipes and tips</p>
+    </div>
     </header>
-
-<main class="container">
- <div>
-        <h2>Our Blog</h2>    
-            <img src="./img/blog1.jpg" alt="">
-            <h3>Coffee bean type</h3>
+<main class="container flex-container">
+<!--possible <article> tag-->
+<section class="h2">
+    <br>
+        <h2>Our Blog</h2> 
+    <br>
+    <div>        
+            <img src="./img/blog1.jpg" alt="coffee">
+        <h3>Coffee bean type</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium minus veritatis, accusamus alias quisquam quae perspiciatis adipisci!</p>
                 <a class="read-more-btn" href="#">Read More</a>
- </div>
- <div>                   
-            <img src="./img/blog2.jpg" alt="">
+    </div>
+    <div>                   
+            <img src="./img/blog2.jpg" alt="coffee">
         <h3>Three Delicious Coffee Recipes</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos eius quaerat magni officia consequuntur repellat cupiditate nisi.</p>
                 <a class="read-more-btn" href="#">Read More</a>
- </div>         
- <div>
-            <img src="./img/blog3.jpg" alt="">
+    </div>         
+    <div>
+            <img src="./img/blog3.jpg" alt="coffee">
         <h3>Coffee Benefits</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vel quia quam ullam eos sit fuga quae sunt!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis in quibusdam aut adipisci provident velit. Porro ducimus impedit inventore. Eveniet animi doloribus, harum nostrum minus modi tempora voluptates fugiat.</p>
                 <a class="read-more-btn" href="#">Read More</a>
- </div>            
- <div>  
+    </div>
+</section>     
+<section>
+    <br>
         <h2>Our Courses and Workshops</h2>
-            <h3>Coffee Extraction Techniques</h3>
+    <br>      
+    <div>  
+        <h3>Coffee Extraction Techniques</h3>
+    <br>
             <ul>                         
-                <li><p><b>Price:</b>Free</p></li>
-                <li><p><b>Seat:</b>20</p></li>          
-            </ul>
+                <li><b>Price:</b>Free</li>
+                <li><b>Seat:</b>20</li>
+            </ul> 
             <a class="more-info-btn" href="#">More Information</a> 
-
+    </div>
+    <br>
+    <div>
         <h3>Four Coffee Recipes for Beginners</h3>
-        <ul>                         
-            <li><p><b>Price:</b>Free</p></li>
-            <li><p><b>Seat:</b>20</p></li>          
-        </ul>
-        <a class="more-info-btn" href="#">More Information</a> 
- </div> 
-</main>                
+    <br>
+            <ul>                         
+                <li><b>Price:</b>Free</li>
+                <li><b>Seat:</b>20</li>
+            </ul>        
+            <a class="more-info-btn" href="courses.html">More Information</a> 
+    </div>    
+</section>
+</main>
+    <br>                
     <footer>
-        <div class="site-end">
-        <h2>Coffee Blog</h2>
-            <ul class="footer-btn">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
-        </div>       
+    <div class="site-end">
+        <div class="con-foot hf-flex">
+            <h1><a href="index.html">Coffee <span>Blog</span></a></h1>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+        </div>
+    </div>       
     </footer>       
 </body>
 </html>
