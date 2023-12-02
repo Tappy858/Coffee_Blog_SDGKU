@@ -31,7 +31,6 @@ span{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
 }   
 .flex-container{
     display: flex;
@@ -59,16 +58,11 @@ span{
 }
 .con-hf{
     height: 100px; 
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
 }
 .hf-flex{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: baseline; 
+    justify-content: space-around;
+    flex-direction: row; 
     align-items: center;
 }
 /*header*/
@@ -85,6 +79,14 @@ span{
 }
 .site-init p{
     text-align: center
+}
+.site-secondary, 
+.site-secondary a{
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding: 5px;
+    background-position: center;
 }
 .headerid{
     display: flex;
@@ -111,6 +113,33 @@ span{
     margin-right: auto;
     margin-top: auto;
 }
+/*contact*/
+form{
+    background-color: white;
+    padding: 10px;
+    margin-top: -80px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    margin-bottom: 20px;
+}
+.input-container input{
+    border: 1px solid black;
+    padding: 3px;
+    width: 75%;
+}
+.input-container label{
+    display: inline-block;
+    width: 80px;
+}
+
 /*notes*/
 /*/.footer-btn{
     color: white;
